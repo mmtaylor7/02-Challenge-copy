@@ -9,9 +9,31 @@ document.getElementById('currentDay').innerHTML = today
 
 // document.write(today);
 
-var input = document.getElementById("user-input");
+// var input = document.getElementById("user-input");
 
 
-function save() { localStorage.setItem("server", input.val());
+// function save() { 
+//     localStorage.setItem("response", input);
+// }
+
+// var button = document.querySelector('.saveBtn');
+// var inputText = document.querySelector('.user-input');
+
+
+// function save() {
+//     // var input = JSON.parse(window.localStorage.getItem('jokes'))
+  
+//     if (input) {
+//       window.localStorage.setItem('jokes', JSON.stringify([...favoriteJokes, jokeText.innerHTML]))
+//     } else {
+//       window.localStorage.setItem('jokes', JSON.stringify([jokeText.innerHTML]))
+//     }
+
+
+function save() {
+    var input = document.getElementById("user-input").value;
+
+localStorage.setItem("input", JSON.stringify ([input]));
+
 }
-
+   
