@@ -65,8 +65,26 @@ function save5() {
 document.addEventListener('DOMContentLoaded', displayData) 
 
 var data9 = document.getElementById('user-input-9');
+var data10 = document.getElementById('user-input-10');
+var data11 = document.getElementById('user-input-11');
+var data12 = document.getElementById('user-input-12');
+var data1 = document.getElementById('user-input-1');
+var data2 = document.getElementById('user-input-2');
+var data3 = document.getElementById('user-input-3');
+var data4 = document.getElementById('user-input-4');
+var data5 = document.getElementById('user-input-5');
 
-data9.innerHTML = localStorage.getItem("input9");
+
+data9.innerHTML = JSON.parse(localStorage.getItem("input9"));
+data10.innerHTML = JSON.parse(localStorage.getItem("input10"));
+data11.innerHTML = JSON.parse(localStorage.getItem("input11"));
+data12.innerHTML = JSON.parse(localStorage.getItem("input12"));
+data1.innerHTML = JSON.parse(localStorage.getItem("input1"));
+data2.innerHTML = JSON.parse(localStorage.getItem("input2"));
+data3.innerHTML = JSON.parse(localStorage.getItem("input3"));
+data4.innerHTML = JSON.parse(localStorage.getItem("input4"));
+data5.innerHTML = JSON.parse(localStorage.getItem("input5"));
+
 
 
 function displayData() {
