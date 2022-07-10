@@ -64,10 +64,13 @@ function save5() {
 
 document.addEventListener('DOMContentLoaded', displayData) 
 
-var data9 = document.getElementById('user-input-9').innerHTML
+var data9 = document.getElementById('user-input-9');
+
+data9.innerHTML = localStorage.getItem("input9");
+
 
 function displayData() {
-    localStorage.getItem("input9") = var data9;
+    localStorage.getItem("input9") = data9;
     localStorage.getItem("input10") = data10;
     localStorage.getItem("input11") = data11;
     localStorage.getItem("input12") = data12;
@@ -77,3 +80,4 @@ function displayData() {
     localStorage.getItem("input4") = data4;
     localStorage.getItem("input5") = data5;
 }
+
