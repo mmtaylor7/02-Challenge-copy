@@ -61,3 +61,19 @@ function save5() {
 
     localStorage.setItem("input5", JSON.stringify (input));
 }
+
+document.addEventListener('DOMContentLoaded', displayData) 
+
+var data9 = document.getElementById('user-input-9').innerHTML
+
+function displayData() {
+    localStorage.getItem("input9") = var data9;
+    localStorage.getItem("input10") = data10;
+    localStorage.getItem("input11") = data11;
+    localStorage.getItem("input12") = data12;
+    localStorage.getItem("input1") = data1;
+    localStorage.getItem("input2") = data2;
+    localStorage.getItem("input3") = data3;
+    localStorage.getItem("input4") = data4;
+    localStorage.getItem("input5") = data5;
+}
