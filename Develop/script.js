@@ -31,8 +31,8 @@ document.getElementById('currentDay').innerHTML = today
 
 
 function save() {
-    var input = document.getElementById("user-input").value ;
+    var input = document.getElementById("user-input-9").value ;
 
-    localStorage.setItem("input", JSON.stringify (input));
+    localStorage.setItem("input9", JSON.stringify (input));
 }
    
