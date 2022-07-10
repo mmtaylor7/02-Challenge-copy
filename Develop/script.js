@@ -7,32 +7,57 @@ today = mm + '/' + dd + '/' + yyyy;
 
 document.getElementById('currentDay').innerHTML = today
 
-// document.write(today);
 
-// var input = document.getElementById("user-input");
-
-
-// function save() { 
-//     localStorage.setItem("response", input);
-// }
-
-// var button = document.querySelector('.saveBtn');
-// var inputText = document.querySelector('.user-input');
-
-
-// function save() {
-//     // var input = JSON.parse(window.localStorage.getItem('jokes'))
-  
-//     if (input) {
-//       window.localStorage.setItem('jokes', JSON.stringify([...favoriteJokes, jokeText.innerHTML]))
-//     } else {
-//       window.localStorage.setItem('jokes', JSON.stringify([jokeText.innerHTML]))
-//     }
-
-
-function save() {
+function save9() {
     var input = document.getElementById("user-input-9").value ;
 
     localStorage.setItem("input9", JSON.stringify (input));
 }
-   
+
+function save10() {
+    var input = document.getElementById("user-input-10").value ;
+
+    localStorage.setItem("input10", JSON.stringify (input));
+}
+
+function save11() {
+    var input = document.getElementById("user-input-11").value ;
+
+    localStorage.setItem("input11", JSON.stringify (input));
+}
+
+function save12() {
+    var input = document.getElementById("user-input-12").value ;
+
+    localStorage.setItem("input12", JSON.stringify (input));
+}
+
+function save1() {
+    var input = document.getElementById("user-input-1").value ;
+
+    localStorage.setItem("input1", JSON.stringify (input));
+}
+
+function save2() {
+    var input = document.getElementById("user-input-2").value ;
+
+    localStorage.setItem("input2", JSON.stringify (input));
+}
+
+function save3() {
+    var input = document.getElementById("user-input-3").value ;
+
+    localStorage.setItem("input3", JSON.stringify (input));
+}
+
+function save4() {
+    var input = document.getElementById("user-input-4").value ;
+
+    localStorage.setItem("input4", JSON.stringify (input));
+}
+
+function save5() {
+    var input = document.getElementById("user-input-5").value ;
+
+    localStorage.setItem("input5", JSON.stringify (input));
+}
