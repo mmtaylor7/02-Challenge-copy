@@ -8,3 +8,10 @@ today = mm + '/' + dd + '/' + yyyy;
 document.getElementById('currentDay').innerHTML = today
 
 // document.write(today);
+
+var input = document.getElementById("user-input");
+
+
+function save() { localStorage.setItem("server", input.val());
+}
+
