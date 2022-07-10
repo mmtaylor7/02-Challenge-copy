@@ -1,4 +1,4 @@
-# 05 Work Day Scheduler - Mary Margaret Taylor
+# Work Day Scheduler - Mary Margaret Taylor
 
 ## User Story
 
@@ -12,12 +12,15 @@ SO THAT I can manage my time effectively
 ![deployment](./Assets/Screen%20Shot%202022-07-10%20at%203.03.46%20PM.png)
 
 #### Deployment Link
-[Mary Margaret Taylor]()
+[Mary Margaret Taylor](https://mmtaylor7.github.io/Work-Day-Scheduler/)
 
 ##### GitHub Repository Link
 
-[Mary Margaret Taylor Repository](https://github.com/mmtaylor7/Mary-Taylor-Quiz)
+[Mary Margaret Taylor Repository](https://github.com/mmtaylor7/Work-Day-Scheduler)
 
+###### Contributors
+
+Code refactored by Mary Margaret Taylor for Georgia Tech Coding Bootcamp 2022
 
 
 
